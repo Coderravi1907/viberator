@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script>
+		function testString()
+		{
+			var sFirstName = document.getElementById("name1").value;
+			var sOutput = "Hello" + sFirstName;
+			
+			document.getElementById("output").innerHTML = sOutput;
+		}
+	</script>
+</head>
+<body>
+    <h1>I'm hosted with Github pages.</h1>
+	<label>Enter First Name:</label>
+	<input type="text" id="name1" name="name1">
+	<br>
+	<br>
+	<button onclick="testString()">Click</button>
+	<br>
+	<br>
+	<p id="output"></p>
+</body>
+</html>
